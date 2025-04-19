@@ -48,3 +48,4 @@ data/features/*
 # Other large files (optional)
 outputs/models/
 outputs/results/
+*.pkl

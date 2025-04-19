@@ -49,3 +49,4 @@ data/features/*
 outputs/models/
 outputs/results/
 *.pkl
+*.pt

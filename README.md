@@ -5,6 +5,19 @@
 這個專題主要是透過各種機器學習來預測FAD/FMN Binding Site
 目前完成: Transformer(Fine-tune model facebook/esm2_t6_8M_UR50D)
 
+## Notice
+Fine-tune的模型過大，無法推送至github，第一次運行需要在main.py中使用
+```
+transformers_trainer.run()
+```
+以得到模型
+
+參考時間:
+
+GPU: NVIDIA GeForce RTX 4060 Laptop GPU
+
+時間: About 40 minutes
+
 ## 目錄結構(From ChatGPT):
 ```
 protein_ml_project/

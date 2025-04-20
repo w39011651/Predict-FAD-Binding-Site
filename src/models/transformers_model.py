@@ -3,10 +3,10 @@ import pickle
 from transformers import EsmForTokenClassification, Trainer, TrainingArguments
 from torch.utils.data import random_split
 
-pkl_path = './processed_dataset.pkl'
+pkl_path = "C:\\Users\\lovem\\Desktop\\repository\\biologyInformation\\protein_ml_project\\processed_dataset.pkl"
 
 class ProteinDataset(Dataset):
-    def __init__(self, li):
+    def __init__(self, df):
         with open(pkl_path, "rb") as f:
             self.samples = pickle.load(f)
         

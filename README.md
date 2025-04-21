@@ -79,14 +79,14 @@ raw 資料 ↔ 處理後資料 ↔ 特徵資料 清楚分開
 ### Transformer:
 
 ```
-              precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00    134313
-           1       0.98      0.96      0.97      4306
+           0       1.00      1.00      1.00     88813
+           1       0.93      0.88      0.90      2889
 
-    accuracy                           1.00    138619
-   macro avg       0.99      0.98      0.98    138619
-weighted avg       1.00      1.00      1.00    138619
+    accuracy                           0.99     91702
+   macro avg       0.96      0.94      0.95     91702
+weighted avg       0.99      0.99      0.99     91702
 ```
 
 ## Reference

@@ -50,3 +50,6 @@ outputs/models/
 outputs/results/
 *.pkl
 *.pt
+
+# .ipynb files
+*.ipynb

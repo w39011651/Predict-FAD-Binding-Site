@@ -98,3 +98,7 @@ Volume 131,
 104258,
 ISSN 0010-4825,
 https://doi.org/10.1016/j.compbiomed.2021.104258.](https://www.sciencedirect.com/science/article/abs/pii/S0010482521000524?casa_token=kEkRv3ranIUAAAAA:S5dHeB0riirLnAALU0PxfWk71ubyxDTLdXzXXxN45KTIWii8kmXzVG8uSOmnfr0UB8NCs00Mhg#sec10)
+
+[Peng, F.Z., Wang, C., Chen, T. et al. PTM-Mamba: a PTM-aware protein language model with bidirectional gated Mamba blocks. Nat Methods (2025).](https://doi.org/10.1038/s41592-025-02656-9)
+
+[Albert Gu, Tri Dao, Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)

@@ -5,8 +5,8 @@ import torch
 import torch.nn
 from transformers import EsmTokenizer, EsmModel
 from transformers import EsmForTokenClassification, Trainer, TrainingArguments
-from src.data import load_data
-from src.utils.helper import log
+from data import load_data
+from utils.helper import log
 
 
 tokenizer = EsmTokenizer.from_pretrained('facebook/esm2_t6_8M_UR50D')

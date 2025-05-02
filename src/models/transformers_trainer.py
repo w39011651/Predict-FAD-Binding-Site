@@ -26,15 +26,12 @@ def prepare_inputs(row):
         label = label[:max_len]
 
     log("Process row:{}...".format(row["sequence"]))
-
-    target_id = tokenizer.convert_tokens_to_ids(row['target_amino_acid'])
     
     
     return {
         "input_ids": encoding["input_ids"].squeeze(0),
         "attention_mask": encoding["attention_mask"].squeeze(0),
-        "labels": torch.tensor(label),
-        "target_id":torch.tensor(target_id)
+        "labels": torch.tensor(label)
     }
 
 def make_pickel_file():

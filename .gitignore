@@ -56,3 +56,5 @@ outputs/results/
 
 # .pyc files
 *.pyc
+
+# files under notebooks

@@ -1,6 +1,6 @@
 import json
 import pandas as pd
-from models.transformers_model import ProteinDataset
+from src.models.transformers_model import ProteinDataset
 from torch.utils.data import random_split
 
 FILE_PATH = "../../data/raw/FAD_rmsim.json"

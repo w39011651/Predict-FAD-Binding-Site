@@ -2,7 +2,8 @@
 training_arguments:
   dataloader_num_workers: 4
   output_dir: "./results"
-  per_device_train_batch_size: 8
+  per_device_train_batch_size: 4
+  per_device_eval_batch_size: 16
   gradient_accumulation_steps: 1
   num_train_epochs: 40
   eval_strategy: "steps"
@@ -17,10 +18,11 @@ training_arguments:
   report_to: "none"
   disable_tqdm: false
   seed: 42
-  eval_steps: 20
+  eval_steps: 40
   metric_for_best_model: "recall_1"
   load_best_model_at_end: true
   greater_is_better: true
-  weight_decay: 0.001
-  learning_rate: !!float 1e-5
+  weight_decay: 0.005
+  learning_rate: !!float 2e-5
   lr_scheduler_type: "cosine"
+  save_steps: 200
